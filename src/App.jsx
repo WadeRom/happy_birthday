@@ -1,4 +1,6 @@
-import { SectionOne } from "./components/containers/Section"
+import { SectionOne } from "./components/Sections/SectionOne"
+
+SectionOne
 
 function App() {
   return (

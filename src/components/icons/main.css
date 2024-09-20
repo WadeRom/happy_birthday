@@ -1,0 +1,13 @@
+.heart-icon{
+  height: auto;
+  animation: pulse 1s infinite ease-in-out;
+  width: clamp(var(--size-sm), 5vw, var(--size-lg));
+}
+.heart-icon:nth-child(odd){
+  rotate: 25deg;
+}
+.heart-icon:nth-child(even){
+  rotate: -25deg;
+}
+
+
