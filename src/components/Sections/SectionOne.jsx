@@ -1,3 +1,4 @@
+import { Icon } from "../icons/Icon";
 import { HeartIcon } from "../icons/Heart";
 import { Title } from "../typography/Title";
 
@@ -5,16 +6,16 @@ const Icons = () => {
   return (
     <article className="w-full flex flex-col gap-sm fadeIn">
       <div className="w-full flex justify-between">
-        <HeartIcon variant="pink_dark" />
-        <HeartIcon variant="cian" />
-        <HeartIcon variant="yellow" />
-        <HeartIcon variant="pink" />
+        <Icon name="heart" color="fill-pink-dark" />
+        <Icon name="heart" color="fill-cian" />
+        <Icon name="heart" color="fill-yellow" />
+        <Icon name="heart" color="fill-pink" />
       </div>
       <div className="w-full flex justify-around">
-        <HeartIcon variant="pink" />
-        <HeartIcon variant="yellow" />
-        <HeartIcon variant="cian" />
-        <HeartIcon variant="pink_dark" />
+        <Icon name="heart" color="fill-pink" />
+        <Icon name="heart" color="fill-yellow" />
+        <Icon name="heart" color="fill-cian" />
+        <Icon name="heart" color="fill-pink-dark" />
       </div>
     </article>
   );

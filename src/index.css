@@ -96,8 +96,7 @@ dd {
 /* Set core body defaults */
 body {
   line-height: 1.5;
-  scroll-behavior: smooth;
-  text-rendering: optimizeSpeed;
+
 }
 
 /* Remove list styles on ul, ol elements with a class attribute */
@@ -131,8 +130,11 @@ svg{
 }
 
 #root {
-  width: 100dvw;
-  height: 100dvh;
+  width: 100vw;
+  height: 100vh;
+  overflow-y: auto;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
   background-color: var(--color-purple-dark);
 }
 
@@ -216,6 +218,21 @@ svg{
 
 .w-min--xs { min-width: var(--screen-xs); }
 .h-min--xs { min-height: var(--screen-xs); }
+
+.w-xs { width: var(--size-xs); }
+.w-sm { width: var(--size-sm); }
+.w-md { width: var(--size-md); }
+.w-lg { width: var(--size-lg); }
+.w-xl { width: var(--size-xl); }
+.w-xxl { width: var(--size-xxl); }
+
+.h-xs { height: var(--size-xs); }
+.h-sm { height: var(--size-sm); }
+.h-md { height: var(--size-md); }
+.h-lg { height: var(--size-lg); }
+.h-xl { height: var(--size-xl); }
+.h-xxl { height: var(--size-xxl); }
+
 
 .w-5  { width: var(--size-5);  }
 .w-10 { width: var(--size-10); }

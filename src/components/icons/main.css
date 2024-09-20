@@ -10,4 +10,7 @@
   rotate: -25deg;
 }
 
-
+.icon{
+  height: auto;
+  width: clamp(var(--size-sm), 5vw, var(--size-lg));
+}
