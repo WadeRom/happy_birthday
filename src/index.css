@@ -371,6 +371,9 @@ svg{
 .align-center { align-items: center; }
 .align-start { align-items: flex-start; }
 
+.overflow-y{
+  overflow-y: auto;
+}
 
 /*Animations*/
 
@@ -404,7 +407,19 @@ svg{
   animation-delay: 2.5s;
 }
 
+.slideInFromLeft {
+  animation: slideInFromLeft 0.5s ease forwards;
+}
 
+.slideInFromRight {
+  animation: slideInFromRight 0.5s ease forwards;
+}
+
+.transition{
+  transition: transform 0.5s ease-in-out;
+  overflow: hidden;
+  position: relative;
+}
 /* Remove all animations and transitions for people that prefer not to see them */
 @media (prefers-reduced-motion: reduce) {
   * {
@@ -445,6 +460,24 @@ svg{
   }
   100% {
     transform: scale(1);
+  }
+}
+
+@keyframes slideInFromRight {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
   }
 }
 
