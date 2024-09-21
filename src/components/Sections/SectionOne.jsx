@@ -1,22 +1,22 @@
 import { Icon } from "../icons/Icon";
-import { HeartIcon } from "../icons/Heart";
 import { Title } from "../typography/Title";
+
+const RowIcon = ({className}) => {
+  return (
+    <div className={className}>
+        <Icon name="heart" color="pulse fill-pink-dark" />
+        <Icon name="heart" color="pulse fill-cian" />
+        <Icon name="heart" color="pulse fill-yellow" />
+        <Icon name="heart" color="pulse fill-pink" />
+    </div>
+  )
+}
 
 const Icons = () => {
   return (
-    <article className="w-full flex flex-col gap-sm fadeIn">
-      <div className="w-full flex justify-between">
-        <Icon name="heart" color="fill-pink-dark" />
-        <Icon name="heart" color="fill-cian" />
-        <Icon name="heart" color="fill-yellow" />
-        <Icon name="heart" color="fill-pink" />
-      </div>
-      <div className="w-full flex justify-around">
-        <Icon name="heart" color="fill-pink" />
-        <Icon name="heart" color="fill-yellow" />
-        <Icon name="heart" color="fill-cian" />
-        <Icon name="heart" color="fill-pink-dark" />
-      </div>
+    <article className="fadeIn flex flex-col gap-sm">
+      <RowIcon className="w-full flex justify-between"/>
+      <RowIcon className="w-full flex justify-around flex-row--reverse"/>
     </article>
   );
 };
