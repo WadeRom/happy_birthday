@@ -1,35 +1,56 @@
-import { useEffect, useState } from "react";
-import { Title } from "../typography/Title";
-import { SunflowerIcon } from "../icons/Sunflower";
-import { Icon } from "../icons/Icon";
+import './index.css';
+import { useState, useEffect } from 'react';
+import poems from "../../api/poems.json";
 
-const Poem = ({id, content}) => {
+const Carousel = () => {
+  const [currentIndex, setCurrentIndex] = useState(0);
+  const [slideDirection, setSlideDirection] = useState(''); // Controla la dirección de la animación
+  const [isAnimating, setIsAnimating] = useState(false);    // Para controlar la animación
+
+  const nextPoem = () => {
+    if (isAnimating) return; // Evita múltiples clics mientras hay una animación
+    setSlideDirection('next');
+    setIsAnimating(true);
+    setCurrentIndex((prevIndex) => (prevIndex + 1) % poems.length);
+  };
+
+  const prevPoem = () => {
+    if (isAnimating) return;
+    setSlideDirection('prev');
+    setIsAnimating(true);
+    setCurrentIndex((prevIndex) => (prevIndex - 1 + poems.length) % poems.length);
+  };
+
+  // useEffect para manejar el inicio y fin de la animación
+  useEffect(() => {
+    if (isAnimating) {
+      const animationTimeout = setTimeout(() => {
+        setIsAnimating(false); // Finalizar animación después de 500ms
+        setSlideDirection('');  // Resetear dirección de la animación
+      }, 500); // Duración de la animación en milisegundos
+
+      return () => clearTimeout(animationTimeout); // Limpiar temporizador si el componente se desmonta
+    }
+  }, [isAnimating]);
+
   return (
-    <article>
-      <button>atras</button>
-      <div id={id}>
-        <p>{content}</p>
+    <div className={`carousel-container ${slideDirection} ${isAnimating ? 'animating' : ''}`}>
+      <div className="poem">
+        <h2>{poems[currentIndex].title}</h2>
+        <p>{poems[currentIndex].content}</p>
+        <p>Author: {poems[currentIndex].author}</p>
+        <p>Fecha: {poems[currentIndex].fecha}</p>
       </div>
-      <button>adelante</button>
-    </article>
+      <button onClick={prevPoem} disabled={isAnimating}>Previous</button>
+      <button onClick={nextPoem} disabled={isAnimating}>Next</button>
+    </div>
   );
 };
 
 export const SectionTwo = () => {
-  const [poems, setPoems] = [
-    {
-      id: 1,
-      title: 'Eres como los girasoles',
-      author: 'W.R Tolkien',
-      content: 'En el jardín de la vida, te veo brillar,como un girasol que siempre busca el sol,tu rostro se ilumina con la luz del día,y en la noche, eres la estrella que guía. \nTus ojos, como pétalos dorados,reflejan la calidez de un verano eterno,y tu sonrisa, un rayo de esperanza,que florece en los corazones, sin tardanza. \nEres fuerte, como el tallo que sostiene,y delicada, como el aroma que desprende, en cada paso, dejas un rastro de amor, como un girasol, sigues al sol con fervor.'
-    }
-  ];
-  
   return (
-    <section id="2" className="w-full h-full color-white">
-      <Title>{poems.title}</Title>
-      <Poem id="1" content={poems.content}/>
-      <Icon name="sunflower" size="w-xxl"/>
+    <section id="2" className="w-full  h-full color-white">
+      <Carousel/>
     </section>
   );
 };

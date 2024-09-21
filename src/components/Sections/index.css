@@ -1,0 +1,51 @@
+.carousel-container {
+  width: 100%;
+  max-width: 600px;
+  overflow: hidden;
+  position: relative;
+  margin: auto;
+}
+
+.poem {
+  height: 30rem;
+  min-height: 10vw;
+  padding: 20px;
+  text-align: center;
+  width: 100%; /* Asegúrate de que ocupe el ancho del contenedor */
+  overflow-y: auto;
+}
+
+.carousel-container .poem.animating {
+  opacity: 1; /* Al activar la animación, la opacidad se vuelve visible */
+}
+
+.carousel-container.next .poem {
+  animation: slideInFromRight 0.5s ease forwards;
+}
+
+.carousel-container.prev .poem {
+  animation: slideInFromLeft 0.5s ease forwards;
+}
+
+@keyframes slideInFromRight {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+button {
+  margin: 5px;
+  padding: 10px 15px;
+}
