@@ -469,10 +469,8 @@ svg{
   animation: slideInFromRight 0.5s ease forwards;
 }
 
-.transition{
-  transition: transform 0.5s ease-in-out;
-  overflow: hidden;
-  position: relative;
+.opacity {
+  opacity: 1;
 }
 
 /* Remove all animations and transitions for people that prefer not to see them */
