@@ -419,7 +419,7 @@ svg{
 .flex-col--reverse { flex-direction: column-reverse};
 
 /****Justify****/
-.justify-end { justify-content: flex-end; }
+.justify-end--end{ justify-content: flex-end; }
 .justify-center { justify-content: center; }
 .justify-start { justify-content: flex-start; }
 .justify-between { justify-content: space-between; }

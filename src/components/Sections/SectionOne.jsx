@@ -36,7 +36,7 @@ const Titles = () => {
 
 export const SectionOne = () => {
   return (
-    <section className=" w-min--xs w-full h-full p-sm flex justify-end flex-col">
+    <section className=" w-min--xs w-full h-full p-sm flex justify--end flex-col">
       <Titles />
       <Icons/>
     </section>
