@@ -122,6 +122,7 @@ button,
 textarea,
 select {
   font: inherit;
+  border: 0;
 }
 
 svg{
@@ -159,16 +160,20 @@ svg{
 .color-carmesy    { color: var(--color-carmesy); }
 .color-pink-500   { color: var(--color-pink--dark); }
 .color-purple-100 { color: var(--color-purple-light); }
-
+.color-transparent {color:  transparent;}
 /****Background Colors****/
 .bg-color--blue   { background-color: var(--color-blue); }
 .bg-color--pink   { background-color: var(--color-pink); }
 .bg-color--cian   { background-color: var(--color-cian); }
 .bg-color--white  { background-color: var(--color-white); }
 .bg-color--yellow { background-color: var(--color-yellow); }
+.bg-color--transparent { background-color: transparent;}
 
 /* Border Colors*/
 .border { border: solid red; }
+.border-none { border: none; }
+.radius-full {border-radius: var(--size-full);}
+.radius-xs { border-radius: 0.5rem;}
 
 /****Text Align****/
 .text-left { text-align: left; }
@@ -260,6 +265,7 @@ svg{
 .h-full--vh { width: var(--size-full-vh); } /*Viewport*/
 
 /*Rem*/
+.h-xxs { height: 0.5rem}
 .h-xs { height: var(--size-xs); }
 .h-sm { height: var(--size-sm); }
 .h-md { height: var(--size-md); }
