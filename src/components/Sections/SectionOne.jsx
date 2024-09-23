@@ -23,7 +23,7 @@ const Icons = () => {
 
 const Titles = () => {
   return (
-    <article className="text-center h-65">
+    <article className="text-center h-60">
       <Title level="5" className="w-full font-poppins font-light font-title--lg fadeInUp color-white">
         Happy Birthday
       </Title>
@@ -36,7 +36,7 @@ const Titles = () => {
 
 export const SectionOne = () => {
   return (
-    <section className=" w-min--xs w-full h-full p-sm flex justify--end flex-col">
+    <section className=" w-min--xs w-full h-full p-sm flex justify-end flex-col">
       <Titles />
       <Icons/>
     </section>
