@@ -5,7 +5,8 @@
   --size-full: 100%;
   --size-full-vw: 100dvw;
   --size-full-vh: 100dvh;
-  
+
+  --size-xxs: 0.5rem;
   --size-xs: 1rem;
   --size-sm: 2rem;
   --size-md: 3rem;
@@ -175,12 +176,16 @@ svg{
 .border--blue { border: solid blue; }
 .border-none { border: none; }
 .radius-full {border-radius: var(--size-full);}
-.radius-xs { border-radius: 0.5rem;}
+.radius-xs { border-radius: var(--size-xxs);}
 
 /****Text Align****/
 .text-left { text-align: left; }
 .text-center { text-align: center; }
 .text-right { text-align: right; }
+.text-justify { text-align: justify; }
+.text-wrap--pretty { text-wrap: pretty; }
+.text-wrap--balance { text-wrap: balance; }
+.white-space--pre { white-space: pre-line; }
 
 /****Typography****/
 .font-italic { font-style: italic; }
@@ -222,8 +227,8 @@ svg{
 .w-lg { width: var(--size-lg); }
 .w-xl { width: var(--size-xl); }
 .w-xxl { width: var(--size-xxl); }
-.w-min--xxs  { min-width: 0.5rem; }
-.w-max--xxs { max-width: 0.5rem; }
+.w-min--xxs  { min-width: var(--size-xxs); }
+.w-max--xxs { max-width: var(--size-xxs); }
 
 
 /*Pixels*/
@@ -264,22 +269,21 @@ svg{
 .w-90 { width: var(--size-90); }
 .w-95 { width: var(--size-95); }
 
-/***Height****/
+/*** Height ****/
 .h-auto { height: auto; } /*Auto*/
 .h-full { height: var(--size-full); }/*Porcentage*/
 .h-full--vh { width: var(--size-full-vh); } /*Viewport*/
 
-
 /*Rem*/
-
+.h-xxs { height: var(--size-xxs);}
 .h-xs { height: var(--size-xs); }
 .h-sm { height: var(--size-sm); }
 .h-md { height: var(--size-md); }
 .h-lg { height: var(--size-lg); }
 .h-xl { height: var(--size-xl); }
 .h-xxl { height: var(--size-xxl); }
-.h-min--xxs { min-height: 0.5rem;}
-.h-min--xxs { min-height: 0.5rem;}
+.h-min--xxs { min-height: var(--size-xxs);}
+.h-min--xxs { min-height: var(--size-xxs);}
 
 /*Pixels*/
 .h-min--full { min-height: var(--size-full);}
@@ -465,6 +469,7 @@ svg{
 .absolute { position: absolute; }
 
 /****Gap****/
+.gap-xxs { gap: var(--size-xxs); }
 .gap-xs { gap: var(--size-xs); }
 .gap-sm { gap: var(--size-sm); }
 
@@ -474,6 +479,18 @@ svg{
 .flex-col { flex-direction: column; }
 .flex-row--reverse { flex-direction: row-reverse};
 .flex-col--reverse { flex-direction: column-reverse};
+
+/****Grown****/
+.grown-1{ flex-grow: 1;}
+.grown-2 {flex-grow: 2;}
+.grown-3 {flex-grow: 3;}
+.grown-4 {flex-grow: 4;}
+
+/****Shirk****/
+.shirk-1 {flex-shrink: 1;}
+.shirk-2 {flex-shrink: 2;}
+.shirk-3 {flex-shrink: 3;}
+.shirk-4 {flex-shrink: 4;}
 
 /****Justify****/
 .justify-start    { justify-content: flex-start; }
@@ -487,9 +504,18 @@ svg{
 .align-center { align-items: center; }
 .align-start  { align-items: flex-start; }
 
+/****Display****/
+.d-block { display: block; }
+.d-inline { display: inline; }
+.d-inline--flex { display: inline-flex; }
+.d-inline--block { display: inline-block; }
+
 /*Transitions*/
 .transition--height{
   transition: height 0.5s ease;
+}
+.transition--width{
+  transition: width 0.2s ease;
 }
 /****Animations****/
 .pulse {
