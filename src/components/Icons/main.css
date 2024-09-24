@@ -10,3 +10,6 @@
 .icon:nth-child(even){
   rotate: -25deg;
 }
+.icon-arrow{
+  width: clamp(var(--size-xs), 5vw, var(--size-md));
+}
