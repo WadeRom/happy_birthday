@@ -14,37 +14,52 @@ const CarouselButton = ({ action, children, ...otherProps }) => {
 };
 
 const CarouselStep = ({ active = false }) => {
-  
   return (
     <span
-      className={
+      className={`transition--height w-max--xs h-xs ${
         active
-          ? "bg-color--yellow w-xs h-xs radius-full "
-          : "bg-color--white  w-xs h-xxs  radius-xs"
-      }
+          ? "bg-color--yellow radius-full "
+          : "bg-color--white radius-xs"
+      }`}
     ></span>
   );
 };
 
-const CarouselSteps = ({length= 0, activeIndex=0}) => {
-  
-  return Array.from({ length }, (_, i) => (<CarouselStep key={i} active={i === activeIndex} />));
+const CarouselSteps = ({ length = 0, activeIndex = 0 }) => {
+  return (
+    <div className="w-full w-max--xs h-xs flex justify-between align-center">
+      {Array.from({ length }, (_, i) => (
+        <CarouselStep key={i} active={i === activeIndex} />
+      ))}
+    </div>
+  );
 };
 
-const Carousel = ({ index, animation }) => {
+const CarouselTitle = ({title}) => {
+  return(
+    <h2 className="font-title--lg color-yellow text-center">
+      {title}
+    </h2>
+  )
+}
+
+const CarouselContent = ({ content, author, date,  animation }) => {
   return (
-    <div className="overflow-hidden h-75 m-auto">
-      <h2 className="font-title--lg color-yellow text-center">
-        {poems[index].title}
-      </h2>
-      <div className={`w-full w-max--md m-auto ${animation}`}>
-        <p className="text-center">{poems[index].content}</p>
-        <p>Author: {poems[index].author}</p>
-        <p>Fecha: {poems[index].fecha}</p>
-      </div>
-      <div className="w-full h-10 flex">
-        <CarouselSteps length={poems.length} activeIndex={index}/>
-      </div>
+    <div className={`color-white w-max--sm font-poppins h-min--55 h-55 overflow-y--auto font-medium ${animation}`}>
+      <p className="text-center">{content}</p>
+      <p>Author: {author}</p>
+      <p>Fecha: {date}</p>
+    </div>
+  );
+};
+
+const CarouselContainer = ({ index, animation }) => {
+  const {title, content, author, date} = poems[index];
+  return (
+    <div className="flex flex-col align-center justify-around w-full w-max--lg h-full p-xs">
+      <CarouselTitle  title={title} />
+      <CarouselContent content={content} author={author} date={date} animation={animation}/>
+      <CarouselSteps length={poems.length} activeIndex={index} />
     </div>
   );
 };
@@ -55,16 +70,16 @@ export const SectionTwo = () => {
   const prevPoem = () => setCarouselAnimation(prev, "slideInFromLeft");
 
   return (
-    <section id="2" className="w-full  h-full color-white">
-      <article className="w-max--lg w-min--xs m-auto border h-full flex justify-between align-center ">
+    <section id="2" className="w-full  h-full">
+      <article className="w-max--lg w-min--xs m-auto h-full flex justify-between align-center">
         <CarouselButton
           onClick={prevPoem}
           disabled={carouselState.isAnimating}
           aria-label="Previous Poem"
         >
-          <Icon name="arrow-left" size="2rem" />
+          <Icon name="arrow-left" size="" />
         </CarouselButton>
-        <Carousel
+        <CarouselContainer
           index={carouselState.index}
           animation={carouselState.animation}
         />
@@ -73,7 +88,7 @@ export const SectionTwo = () => {
           disabled={carouselState.isAnimating}
           aria-label="Next Poem"
         >
-          <Icon name="arrow-right" size="2rem" />
+          <Icon name="arrow-right" size="" />
         </CarouselButton>
       </article>
     </section>
