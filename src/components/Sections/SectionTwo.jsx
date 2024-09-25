@@ -4,6 +4,7 @@ import CarouselNavigationButton from "../Carousel/CarouselButton";
 import CarouselContainer from "../Carousel/CarouselContainer";
 import { getNextIndex, getPrevIndex } from "../../utils/carouselUtils";
 import  poems  from "../../api/poems.json";
+import { Icon } from "../Icons/Icon";
 
 export const SectionTwo = () => {
   const { carouselState, setCarouselAnimation } = useCarouselAnimation();
@@ -12,7 +13,7 @@ export const SectionTwo = () => {
   const prevPoem = () => setCarouselAnimation((index) => getPrevIndex(index, poems.length), "slideInFromLeft");
 
   return (
-    <section id="2" className="w-full h-full">
+    <section id="2" className="w-full h-full overflow-hidden relative">
       <article className="w-max--lg w-min--xs m-auto h-full flex justify-between align-center">
         <CarouselNavigationButton 
           direction="prev" 
@@ -31,6 +32,7 @@ export const SectionTwo = () => {
           disabled={carouselState.isAnimating} 
         />
       </article>
+      <Icon name="sunflower" size="icon-sunflower absolute"/>
     </section>
   );
 };

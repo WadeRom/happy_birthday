@@ -3,108 +3,385 @@
     "author": "Walter",
     "date": "2024",
     "title": "Eres como los girasoles",
-    "content": "En el jardín de la vida, te veo brillar,como un girasol que siempre busca el sol,tu rostro se ilumina con la luz del día,y en la noche, eres la estrella que guía.Tus ojos, como pétalos dorados,reflejan la calidez de un verano eterno,y tu sonrisa, un rayo de esperanza,que florece en los corazones, sin tardanza. Eres fuerte, como el tallo que sostiene,y delicada, como el aroma que desprende, en cada paso, dejas un rastro de amor, como un girasol, sigues al sol con fervor."
+    "content": [
+      "En el jardín de la vida, te veo brillar,",
+      "como un girasol que siempre busca el sol,",
+      "tu rostro se ilumina con la luz del día,",
+      "y en la noche, eres la estrella que guía.",
+      "Tus ojos, como pétalos dorados,",
+      "reflejan la calidez de un verano eterno,",
+      "y tu sonrisa, un rayo de esperanza,",
+      "que florece en los corazones, sin tardanza.",
+      "Eres fuerte, como el tallo que sostiene,",
+      "y delicada, como el aroma que desprende,",
+      "en cada paso, dejas un rastro de amor,",
+      "como un girasol, sigues al sol con fervor."
+    ]
   },
   {
     "author": "Pablo Neruda",
     "date": "1959",
     "title": "Soneto XVII",
-    "content": "Pensando que el camino iba derecho,\nvine a parar en tanta desventura,\nque imaginar no puedo, aún con locura,\nalgo de que esté un rato satisfecho.\nEl ancho campo me parece estrecho,\nla noche clara para mí es escura;\nla dulce compañía, amarga y dura,\ny duro campo de batalla el lecho.\nDel sueño, si hay alguno, aquella parte\nsola, que es imagen de la muerte,\nse aviene con el alma fatigada.\nEn fin que como quiera estoy de arte,\nque juzgo ya por hora menos fuerte,\naunque en ella me vi, la que es pasada.\n"
+    "content": [
+      "Pensando que el camino iba derecho,",
+      "vine a parar en tanta desventura,",
+      "que imaginar no puedo, aún con locura,",
+      "algo de que esté un rato satisfecho.",
+      "El ancho campo me parece estrecho,",
+      "la noche clara para mí es escura;",
+      "la dulce compañía, amarga y dura,",
+      "y duro campo de batalla el lecho.",
+      "Del sueño, si hay alguno, aquella parte sola,",
+      "que es imagen de la muerte, se aviene",
+      "con el alma fatigada.",
+      "En fin que como quiera estoy de arte,",
+      "que juzgo ya por hora menos fuerte,",
+      "aunque en ella me vi, la que es pasada."
+    ]
   },
   {
     "author": "Pablo Neruda",
     "date": "1924",
     "title": "Poema 20",
-    "content": "Puedo escribir los versos más tristes esta noche.\nEscribir, por ejemplo: «La noche está estrellada,\ny tiritan, azules, los astros, a lo lejos».\nEl viento de la noche gira en el cielo y canta.\nPuedo escribir los versos más tristes esta noche.\nYo la quise, y a veces ella también me quiso.\nEn las noches como ésta la tuve entre mis brazos.\nLa besé tantas veces bajo el cielo infinito.\nElla me quiso, a veces yo también la quería.\nCómo no haber amado sus grandes ojos fijos.\nPuedo escribir los versos más tristes esta noche.\nPensar que no la tengo. Sentir que la he perdido.\nOír la noche inmensa, más inmensa sin ella.\nY el verso cae al alma como al pasto el rocío.\nQué importa que mi amor no pudiera guerdarla.\nLa noche está estrellada y ella no está conmigo.\nEso es todo. A lo lejos alguien canta. A lo lejos\nMi alma no se contenta con haberla perdido.\nComo para acercarla mi mirada la busca.\nMi corazón la busca, y ella no está conmigo.\nLa misma noche que hace blanquear los mismos árboles.\nNosotros, los de entonces, ya no somos los mismos.\nYa no la quiero, es cierto, pero cuánto la quise.\nMi voz buscaba el viento para tocar su oído.\nDe otro. Será de otro. Como antes de mis besos.\nSu voz, su cuerpo claro. Sus ojos infinitos.\nYa no la quiero, es cierto, pero tal vez la quiero.\nEs tan corto el amor, y es tan largo el olvido.\nPorque en noches como ésta la tuve entre mis brazos,\nmi alma no se contenta con haberla perdido.\nAunque éste sea el último dolor que ella me causa,\ny estos sean los últimos versos que yo le escribo.\n"
+    "content": [
+      "Puedo escribir los versos más tristes esta noche.",
+      "Escribir, por ejemplo: «La noche está estrellada,",
+      "y tiritan, azules, los astros, a lo lejos».",
+      "El viento de la noche gira en el cielo y canta.",
+      "Puedo escribir los versos más tristes esta noche.",
+      "Yo la quise, y a veces ella también me quiso.",
+      "En las noches como ésta la tuve entre mis brazos.",
+      "La besé tantas veces bajo el cielo infinito.",
+      "Ella me quiso, a veces yo también la quería.",
+      "Cómo no haber amado sus grandes ojos fijos.",
+      "Puedo escribir los versos más tristes esta noche.",
+      "Pensar que no la tengo. Sentir que la he perdido.",
+      "Oír la noche inmensa, más inmensa sin ella.",
+      "Y el verso cae al alma como al pasto el rocío.",
+      "Qué importa que mi amor no pudiera guardarla.",
+      "La noche está estrellada y ella no está conmigo.",
+      "Eso es todo. A lo lejos alguien canta.",
+      "A lo lejos mi alma no se contenta con haberla perdido.",
+      "Como para acercarla mi mirada la busca.",
+      "Mi corazón la busca, y ella no está conmigo.",
+      "La misma noche que hace blanquear los mismos árboles.",
+      "Nosotros, los de entonces, ya no somos los mismos.",
+      "Ya no la quiero, es cierto, pero cuánto la quise.",
+      "Mi voz buscaba el viento para tocar su oído.",
+      "De otro. Será de otro.",
+      "Como antes de mis besos. Su voz, su cuerpo claro.",
+      "Sus ojos infinitos. Ya no la quiero, es cierto,",
+      "pero tal vez la quiero.",
+      "Es tan corto el amor, y es tan largo el olvido.",
+      "Porque en noches como ésta la tuve entre mis brazos,",
+      "mi alma no se contenta con haberla perdido.",
+      "Aunque éste sea el último dolor que ella me causa,",
+      "y estos sean los últimos versos que yo le escribo."
+    ]
   },
   {
     "author": "Gustavo Adolfo Bécquer",
     "date": "1868",
     "title": "Rima LIII",
-    "content": "Volverán las oscuras golondrinas\nen tu balcón sus nidos a colgar,\ny otra vez con el ala a sus cristales\njugando llamarán.\nPero aquellas que el vuelo refrenaban\ntu hermosura y mi dicha a contemplar,\naquellas que aprendieron nuestros nombres...\n¡esas... no volverán!.\nVolverán las tupidas madreselvas\nde tu jardín las tapias a escalar,\ny otra vez a la tarde aún más hermosas\nsus flores se abrirán.\nPero aquellas, cuajadas de rocío\ncuyas gotas mirábamos temblar\ny caer como lágrimas del día...\n¡esas... no volverán!\nVolverán del amor en tus oídos\nlas palabras ardientes a sonar;\ntu corazón de su profundo sueño\ntal vez despertará.\nPero mudo y absorto y de rodillas\ncomo se adora a Dios ante su altar,\ncomo yo te he querido...; desengáñate,\n¡así... no te querrán!\n"
+    "content": [
+      "Volverán las oscuras golondrinas",
+      "en tu balcón sus nidos a colgar,",
+      "y otra vez con el ala a sus cristales jugando llamarán.",
+      "Pero aquellas que el vuelo refrenaban",
+      "tu hermosura y mi dicha a contemplar,",
+      "aquellas que aprendieron nuestros nombres... ¡esas... no volverán!",
+      "Volverán las tupidas madreselvas",
+      "de tu jardín las tapias a escalar,",
+      "y otra vez a la tarde aún más hermosas",
+      "sus flores se abrirán.",
+      "Pero aquellas, cuajadas de rocío",
+      "cuyas gotas mirábamos temblar y caer",
+      "como lágrimas del día... ¡esas... no volverán!",
+      "Volverán del amor en tus oídos",
+      "las palabras ardientes a sonar;",
+      "tu corazón de su profundo sueño tal vez despertará.",
+      "Pero mudo y absorto y de rodillas",
+      "como se adora a Dios ante su altar,",
+      "como yo te he querido...; desengáñate, ¡así... no te querrán!"
+    ]
   },
   {
     "author": "Mario Benedetti",
     "date": "1956",
     "title": "Te Quiero",
-    "content": "Tus manos son mi caricia\nmis acordes cotidianos\nte quiero porque tus manos\ntrabajan por la justicia\nsi te quiero es porque sos\nmi amor mi cómplice y todo\ny en la calle codo a codo\nsomos mucho más que dos\ntus ojos son mi conjuro\ncontra la mala jornada\nte quiero por tu mirada\nque mira y siembra futuro\ntu boca que es tuya y mía\ntu boca no se equivoca\nte quiero porque tu boca\nsabe gritar rebeldía\nsi te quiero es porque sos\nmi amor mi cómplice y todo\ny en la calle codo a codo\nsomos mucho más que dos\ny por tu rostro sincero\ny tu paso vagabundo\ny tu llanto por el mundo\nporque sos pueblo te quiero\ny porque amor no es aureola\nni cándida moraleja\ny porque somos pareja\nque sabe que no está sola\nte quiero en mi paraíso\nes decir que en mi país\nla gente viva feliz\naunque no tenga permiso\nsi te quiero es porque sos\nmi amor mi cómplice y todo\ny en la calle codo a codo\nsomos mucho más que dos.\n"
+    "content": [
+      "Tus manos son mi caricia",
+      "mis acordes cotidianos",
+      "te quiero porque tus manos trabajan por la justicia",
+      "si te quiero es porque sos mi amor",
+      "mi cómplice y todo",
+      "y en la calle codo a codo somos mucho más que dos.",
+      "Tus ojos son mi conjuro contra la mala jornada,",
+      "te quiero por tu mirada que mira y siembra futuro,",
+      "tu boca que es tuya y mía",
+      "tu boca no se equivoca,",
+      "te quiero porque tu boca sabe gritar rebeldía.",
+      "Si te quiero es porque sos mi amor",
+      "mi cómplice y todo",
+      "y en la calle codo a codo somos mucho más que dos.",
+      "Y por tu rostro sincero y tu paso vagabundo",
+      "y tu llanto por el mundo porque sos pueblo, te quiero",
+      "y porque amor no es aureola ni cándida moraleja",
+      "y porque somos pareja que sabe que no está sola.",
+      "Te quiero en mi paraíso, es decir que en mi país",
+      "la gente viva feliz aunque no tenga permiso.",
+      "Si te quiero es porque sos mi amor",
+      "mi cómplice y todo,",
+      "y en la calle codo a codo somos mucho más que dos."
+    ]
   },
   {
     "author": "Gustavo Adolfo Bécquer",
     "date": "1870",
     "title": "Amor Eterno",
-    "content": "Podrá nublarse el sol eternamente;\nPodrá secarse en un instante el mar;\nPodrá romperse el eje de la tierra\nComo un débil cristal.\n¡todo sucederá! Podrá la muerte\nCubrirme con su fúnebre crespón;\nPero jamás en mí podrá apagarse\nLa llama de tu amor.\n"
+    "content": [
+      "Podrá nublarse el sol eternamente;",
+      "Podrá secarse en un instante el mar;",
+      "Podrá romperse el eje de la tierra",
+      "Como un débil cristal.",
+      "¡todo sucederá!",
+      "Podrá la muerte Cubrirme con su fúnebre crespón;",
+      "Pero jamás en mí podrá apagarse",
+      "La llama de tu amor."
+    ]
   },
   {
     "author": "Pablo Neruda",
     "date": "1952",
     "title": "Si tú me olvidas",
-    "content": "Quiero que sepas\nuna cosa.\nTú sabes cómo es esto:\nsi miro\nla luna de cristal, la rama roja\ndel lento otoño en mi ventana,\nsi toco\njunto al fuego\nla impalpable ceniza\no el arrugado cuerpo de la leña,\ntodo me lleva a ti,\ncomo si todo lo que existe,\naromas, luz, metales,\nfueran pequeños barcos que navegan\nhacia las islas tuyas que me aguardan.\nAhora bien,\nsi poco a poco dejas de quererme\ndejaré de quererte poco a poco.\nSi de pronto\nme olvidas\nno me busques,\nque ya te habré olvidado.\nSi consideras largo y loco\nel viento de banderas\nque pasa por mi vida\ny te decides\na dejarme a la orilla\ndel corazón en que tengo raíces,\npiensa\nque en ese día,\na esa hora\nlevantaré los brazos\ny saldrán mis raíces\na buscar otra tierra.\nPero\nsi cada día,\ncada hora\nsientes que a mí estás destinada\ncon dulzura implacable.\nSi cada día sube\nuna flor a tus labios a buscarme,\nay amor mío, ay mía,\nen mí todo ese fuego se repite,\nen mí nada se apaga ni se olvida,\nmi amor se nutre de tu amor, amada,\ny mientras vivas estará en tus brazos\nsin salir de los míos.\n"
+    "content": [
+      "Quiero que sepas una cosa.",
+      "Tú sabes cómo es esto:",
+      "si miro la luna de cristal,",
+      "la rama roja del lento otoño en mi ventana,",
+      "si toco junto al fuego la impalpable ceniza",
+      "o el arrugado cuerpo de la leña,",
+      "todo me lleva a ti, como si todo lo que existe,",
+      "aromas, luz, metales,",
+      "fueran pequeños barcos que navegan",
+      "hacia las islas tuyas que me aguardan.",
+      "Ahora bien, si poco a poco dejas de quererme",
+      "dejaré de quererte poco a poco.",
+      "Si de pronto me olvidas no me busques,",
+      "que ya te habré olvidado.",
+      "Si consideras largo y loco el viento de banderas",
+      "que pasa por mi vida y te decides a dejarme",
+      "a la orilla del corazón en que tengo raíces,",
+      "piensa que en ese día, a esa hora",
+      "levantaré los brazos y saldrán mis raíces a buscar otra tierra.",
+      "Pero si cada día, cada hora sientes que a mí",
+      "estás destinada con dulzura implacable.",
+      "Si cada día sube una flor a tus labios a buscarme,",
+      "ay amor mío, ay mía, en mí todo ese fuego se repite,",
+      "en mí nada se apaga ni se olvida,",
+      "mi amor se nutre de tu amor, amada,",
+      "y mientras vivas estará en tus brazos sin salir de los míos."
+    ]
   },
   {
     "author": "Amado Nervo",
     "date": "1982",
     "title": "El amor Nuevo",
-    "content": "Todo amor nuevo que aparece\nnos ilumina la existencia,\nnos la perfuma y enflorece.\nEn la más densa oscuridad\ntoda mujer es refulgencia\ny todo amor es claridad.\nPara curar la pertinaz\npena, en las almas escondida,\nun nuevo amor es eficaz;\nporque se posa en nuestro mal\nsin lastimar nunca la herida,\ncomo un destello en un cristal.\nComo un ensueño en una cuna,\ncomo se posa en la rüina\nla piedad del rayo de la luna.\ncomo un encanto en un hastío,\ncomo en la punta de una espina\nuna gotita de rocío...\n¿Que también sabe hacer sufrir?\n¿Que también sabe hacer llorar?\n¿Que también sabe hacer morir?\n-Es que tú no supiste amar...\n"
+    "content": [
+      "Todo amor nuevo que aparece",
+      "nos ilumina la existencia,",
+      "nos la perfuma y enflorece.",
+      "En la más densa oscuridad",
+      "toda mujer es refulgencia",
+      "y todo amor es claridad.",
+      "Para curar la pertinaz pena,",
+      "en las almas escondida,",
+      "un nuevo amor es eficaz;",
+      "porque se posa en nuestro mal",
+      "sin lastimar nunca la herida,",
+      "como un destello en un cristal.",
+      "Como un ensueño en una cuna,",
+      "como se posa en la ruina",
+      "la piedad del rayo de la luna.",
+      "Como un encanto en un hastío,",
+      "como en la punta de una espina",
+      "una gotita de rocío...",
+      "¿Que también sabe hacer sufrir?",
+      "¿Que también sabe hacer llorar?",
+      "¿Que también sabe hacer morir?",
+      "-Es que tú no supiste amar..."
+    ]
   },
   {
     "author": "César Vallejo",
     "date": "1919",
     "title": "Los Heraldos Negros",
-    "content": "Hay golpes en la vida, tan fuertes... ¡Yo no sé!\nGolpes como del odio de Dios; como si ante ellos,\nla resaca de todo lo sufrido\nse empozara en el alma... ¡Yo no sé!\nSon pocos; pero son... Abren zanjas oscuras\nen el rostro más fiero y en el lomo más fuerte.\nSerán tal vez los potros de bárbaros Atilas;\no los heraldos negros que nos manda la Muerte.\nSon las caídas hondas de los Cristos del alma\nde alguna fe adorable que el Destino blasfema.\nEsos golpes sangrientos son las crepitaciones\nde algún pan que en la puerta del horno se nos quema.\nY el hombre... Pobre... ¡pobre! Vuelve los ojos, como\ncuando por sobre el hombro nos llama una palmada;\nvuelve los ojos locos, y todo lo vivido\nse empoza, como charco de culpa, en la mirada.\nHay golpes en la vida, tan fuertes... ¡Yo no sé!\n"
+    "content": [
+      "Hay golpes en la vida, tan fuertes... ¡Yo no sé!",
+      "Golpes como del odio de Dios;",
+      "como si ante ellos, la resaca de todo lo sufrido",
+      "se empozara en el alma... ¡Yo no sé!",
+      "Son pocos; pero son...",
+      "Abren zanjas oscuras en el rostro más fiero",
+      "y en el lomo más fuerte.",
+      "Serán tal vez los potros de bárbaros Atilas;",
+      "o los heraldos negros que nos manda la Muerte.",
+      "Son las caídas hondas de los Cristos del alma",
+      "de alguna fe adorable que el Destino blasfema.",
+      "Esos golpes sangrientos son las crepitaciones",
+      "de algún pan que en la puerta del horno se nos quema.",
+      "Y el hombre... Pobre... ¡pobre!",
+      "Vuelve los ojos, como cuando por sobre el hombro",
+      "nos llama una palmada; vuelve los ojos locos,",
+      "y todo lo vivido se empoza, como charco de culpa,",
+      "en la mirada.",
+      "Hay golpes en la vida, tan fuertes... ¡Yo no sé!"
+    ]
   },
   {
     "author": "Francisco de Quevedo",
     "date": "1613",
-    "title": "Amor constante más allá de la muerte",
-    "content": "Cerrar podrá mis ojos la postrera\nsombra que me llevare el blanco día,\ny podrá desatar esta alma mía\nhora a su afán ansioso lisonjera;\nmas no, de esotra parte, en la ribera,\ndejará la memoria, en donde ardía:\nnadar sabe mi llama la agua fría,\ny perder el respeto a ley severa.\nAlma a quien todo un dios prisión ha sido,\nvenas que humor a tanto fuego han dado,\nmedulas que han gloriosamente ardido,\nsu cuerpo dejará, no su cuidado;\nserán ceniza, mas tendrá sentido;\npolvo serán, mas polvo enamorado.\n"
+    "title": "Amor constante",
+    "content": [
+      "Cerrar podrá mis ojos la postrera sombra",
+      "que me llevare el blanco día,",
+      "y podrá desatar esta alma mía",
+      "hora a su afán ansioso lisonjera;",
+      "mas no, de esotra parte, en la ribera,",
+      "dejará la memoria, en donde ardía:",
+      "nadar sabe mi llama la agua fría,",
+      "y perder el respeto a ley severa.",
+      "Alma a quien todo un dios prisión ha sido,",
+      "venas que humor a tanto fuego han dado,",
+      "médulas que han gloriosamente ardido,",
+      "su cuerpo dejará, no su cuidado;",
+      "serán ceniza, mas tendrá sentido;",
+      "polvo serán, mas polvo enamorado."
+    ]
   },
   {
     "author": "Alfonsina Storni",
     "date": "1916",
     "title": "Amor, de tarde",
-    "content": "Es una lástima que no estés conmigo\ncuando miro el reloj y son las cuatro\ny acabo la planilla y pienso diez minutos\ny estiro las piernas como todas las tardes\ny hago así con los hombros para aflojar la espalda\ny me doblo los dedos y les saco mentiras.\nEs una lástima que no estés conmigo\ncuando miro el reloj y son las cinco\ny soy una manija que calcula intereses\no dos manos que saltan sobre cuarenta teclas\no un oído que escucha como ladra el teléfono\no un tipo que hace números y les saca verdades.\nEs una lástima que no estés conmigo\ncuando miro el reloj y son las seis.\nPodrías acercarte de sorpresa\ny decirme «¿Qué tal?» y quedaríamos\nyo con la mancha roja de tus labios\ntú con el tizne azul de mi carbónico.\n"
+    "content": [
+      "Es una lástima que no estés conmigo",
+      "cuando miro el reloj y son las cuatro",
+      "y acabo la planilla y pienso diez minutos",
+      "y estiro las piernas como todas las tardes",
+      "y hago así con los hombros para aflojar la espalda",
+      "y me doblo los dedos y les saco mentiras.",
+      "Es una lástima que no estés conmigo",
+      "cuando miro el reloj y son las cinco",
+      "y soy una manija que calcula intereses",
+      "o dos manos que saltan sobre cuarenta teclas",
+      "o un oído que escucha como ladra el teléfono",
+      "o un tipo que hace números y les saca verdades.",
+      "Es una lástima que no estés conmigo",
+      "cuando miro el reloj y son las seis.",
+      "Podrías acercarte de sorpresa y decirme «¿Qué tal?»",
+      "y quedaríamos yo con la mancha roja de tus labios",
+      "tú con el tizne azul de mi carbónico."
+    ]
   },
   {
     "author": "Pablo Neruda",
     "date": "1959",
     "title": "Soneto XXII",
-    "content": "Cuántas veces, amor, te amé sin verte y tal vez sin recuerdo,\nsin reconocer tu mirada, sin mirarte, centaura,\nen regiones contrarias, en un mediodía quemante:\neras sólo el aroma de los cereales que amo.\nTal vez te vi, te supuse al pasar levantando una copa\nen Angol, a la luz de la luna de Junio,\no eras tú la cintura de aquella guitarra\nque toqué en las tinieblas y sonó como el mar desmedido.\nTe amé sin que yo lo supiera, y busqué tu memoria.\nEn las casas vacías entré con linterna a robar tu retrato.\nPero yo ya sabía cómo era. De pronto\nmientras ibas conmigo te toqué y se detuvo mi vida:\nfrente a mis ojos estabas, reinándome, y reinas.\nComo hoguera en los bosques el fuego es tu reino.\n"
+    "content": [
+      "Cuántas veces, amor, te amé sin verte",
+      "y tal vez sin recuerdo, sin reconocer",
+      "tu mirada, sin mirarte, centaura,",
+      "en regiones contrarias, en un mediodía quemante:",
+      "eras sólo el aroma de los cereales que amo.",
+      "Tal vez te vi, te supuse al pasar",
+      "levantando una copa en Angol, a la luz de la luna de Junio,",
+      "o eras tú la cintura de aquella guitarra",
+      "que toqué en las tinieblas y sonó como el mar desmedido.",
+      "Te amé sin que yo lo supiera,",
+      "y busqué tu memoria.",
+      "En las casas vacías entré con linterna a robar tu retrato.",
+      "Pero yo ya sabía cómo era.",
+      "De pronto mientras ibas conmigo",
+      "te toqué y se detuvo mi vida:",
+      "frente a mis ojos estabas, reinándome, y reinas.",
+      "Como hoguera en los bosques el fuego es tu reino."
+    ]
   },
   {
     "author": "José Ángel Buesa",
     "date": "1955",
     "title": "Canción del Amor Prohibido",
-    "content": "Sólo tú y yo sabemos lo que ignora la gente\nal cambiar un saludo ceremonioso y frío,\nporque nadie sospecha que es falso tu desvío,\nni cuánto amor esconde mi gesto indiferente.\nSólo tú y yo sabemos por qué mi boca miente,\nrelatando la historia de un fugaz amorío;\ny tú apenas me escuchas y yo no te sonrío...\nY aún nos arde en los labios algún beso reciente.\nSólo tú y yo sabemos que existe una simiente\ngerminando en la sombra de este surco vacío,\nporque su flor profunda no se ve, ni se siente.\nY así dos orillas tu corazón y el mío,\npues, aunque las separa la corriente de un río,\npor debajo del río se unen secretamente.\n"
-  },
-  {
-    "author": "Mario Benedetti",
-    "date": "1971",
-    "title": "No te Salves",
-    "content": "No te quedes inmóvil\nal borde del camino\nno congeles el júbilo\nno quieras con desgana\nno te salves ahora\nni nunca\nno te salves\nno te llenes de calma\nno reserves del mundo\nsólo un rincón tranquilo\nno dejes caer los párpados\npesados como juicios\nno te quedes sin labios\nno te duermas sin sueño\nno te pienses sin sangre\nno te juzgues sin tiempo\npero si\npese a todo\nno puedes evitarlo\ny congelas el júbilo\ny quieres con desgana\ny te salvas ahora\ny te llenas de calma\ny reservas del mundo\nsólo un rincón tranquilo\ny dejas caer los párpados\npesados como juicios\ny te secas sin labios\ny te duermes sin sueño\ny te piensas sin sangre\ny te juzgas sin tiempo\ny te quedas inmóvil\nal borde del camino\ny te salvas\nentonces\nno te quedes conmigo.\n"
+    "content": [
+      "Sólo tú y yo sabemos lo que ignora la gente",
+      "al cambiar un saludo ceremonioso y frío,",
+      "porque nadie sospecha que es falso tu desvío,",
+      "ni cuánto amor esconde mi gesto indiferente.",
+      "Sólo tú y yo sabemos por qué mi boca miente,",
+      "relatando la historia de un fugaz amorío;",
+      "y tú apenas me escuchas y yo no te sonrío...",
+      "Y aún nos arde en los labios algún beso reciente.",
+      "Sólo tú y yo sabemos que existe una simiente",
+      "germinando en la sombra de este surco vacío,",
+      "porque su flor profunda no se ve, ni se siente.",
+      "Y así dos orillas tu corazón y el mío,",
+      "pues, aunque las separa la corriente de un río,",
+      "por debajo del río se unen secretamente."
+    ]
   },
   {
     "author": "Garcilaso de la Vega",
     "date": "1543",
     "title": "Soneto V",
-    "content": "Escrito está en mi alma vuestro gesto,\ny cuanto yo escribir de vos deseo;\nvos sola lo escribisteis, yo lo leo\ntan solo, que aun de vos me guardo en esto.\nEn esto estoy y estaré siempre puesto;\nque aunque no cabe en mí cuanto en vos veo,\nde tanto bien lo que no entiendo creo,\ntomando ya la fe por presupuesto.\nYo no nací sino para quereros;\nmi alma os ha cortado a su medida;\npor hábito del alma mismo os quiero.\nCuando tengo confieso yo deberos;\npor vos nací, por vos tengo la vida,\npor vos he de morir, y por vos muero.\n"
-  },
-  {
-    "author": "Gustavo Adolfo Bécquer",
-    "date": "1871",
-    "title": "Rima IV (Siempre habrá poesía)",
-    "content": "No digáis que, agotado su tesoro,\nde asuntos falta, enmudeció la lira;\npodrá no haber poetas; pero siempre\nhabrá poesía.\nMientras las ondas de la luz al beso\npalpiten encendidas,\nmientras el sol las desgarradas nubes\nde fuego y oro vista,\nmientras el aire en su regazo lleve\nperfumes y armonías,\nmientras haya en el mundo primavera,\n¡habrá poesía!\nMientras la ciencia a descubrir no alcance\nlas fuentes de la vida,\ny en el mar o en el cielo haya un abismo\nque al cálculo resista,\nmientras la humanidad siempre avanzando\nno sepa a dó camina,\nmientras haya un misterio para el hombre,\n¡habrá poesía!\nMientras se sienta que se ríe el alma,\nsin que los labios rían;\nmientras se llore, sin que el llanto acuda\na nublar la pupila;\nmientras el corazón y la cabeza\nbatallando prosigan,\nmientras haya esperanzas y recuerdos,\n¡habrá poesía!\nMientras haya unos ojos que reflejen\nlos ojos que los miran,\nmientras responda el labio suspirando\nal labio que suspira,\nmientras sentirse puedan en un beso\ndos almas confundidas,\nmientras exista una mujer hermosa,\n¡habrá poesía!\n"
+    "content": [
+      "Escrito está en mi alma vuestro gesto,",
+      "y cuanto yo escribir de vos deseo;",
+      "vos sola lo escribisteis, yo lo leo",
+      "tan solo, que aun de vos me guardo en esto.",
+      "En esto estoy y estaré siempre puesto;",
+      "que aunque no cabe en mí cuanto en vos veo,",
+      "de tanto bien lo que no entiendo creo,",
+      "tomando ya la fe por presupuesto.",
+      "Yo no nací sino para quereros;",
+      "mi alma os ha cortado a su medida;",
+      "por hábito del alma mismo os quiero.",
+      "Cuando tengo confieso yo deberos;",
+      "por vos nací, por vos tengo la vida,",
+      "por vos he de morir, y por vos muero."
+    ]
   },
   {
     "author": "José Ángel Buesa",
     "date": "1950",
     "title": "Cartas a una Desconocida",
-    "content": "Cuando pasen los años, cuando pasen\nlos años y el aire haya cavado un foso\nentre tu alma y la mía; cuando pasen los años\ny yo solo sea un hombre que amó, un ser que se detuvo\nun instante frente a tus labios,\nun pobre hombre cansado de andar por los jardines,\n¿dónde estarás tú? ¡Dónde\nestarás, oh hija de mis besos!\n"
+    "content": [
+      "Cuando pasen los años,",
+      "cuando pasen los años",
+      "y el aire haya cavado un foso entre tu alma y la mía;",
+      "cuando pasen los años",
+      "y yo solo sea un hombre que amó,",
+      "un ser que se detuvo un instante frente a tus labios,",
+      "un pobre hombre cansado de andar por los jardines,",
+      "¿dónde estarás tú?",
+      "¡Dónde estarás, oh hija de mis besos!"
+    ]
   },
   {
     "author": "Rubén Darío",
     "date": "1905",
     "title": "Lo Fatal",
-    "content": "Dichoso el árbol, que es apenas sensitivo,\ny más la piedra dura porque esa ya no siente,\npues no hay dolor más grande que el dolor de ser vivo,\nni mayor pesadumbre que la vida consciente.\nSer y no saber nada, y ser sin rumbo cierto,\ny el temor de haber sido y un futuro terror...\nY el espanto seguro de estar mañana muerto,\ny sufrir por la vida y por la sombra y por\nlo que no conocemos y apenas sospechamos,\ny la carne que tienta con sus frescos racimos,\ny la tumba que aguarda con sus fúnebres ramos,\n¡y no saber adónde vamos,\nni de dónde venimos!...\n"
+    "content": [
+      "Dichoso el árbol, que es apenas sensitivo,",
+      "y más la piedra dura porque esa ya no siente;",
+      "pues no hay dolor más grande que el dolor de ser vivo,",
+      "ni mayor pesadumbre que la vida consciente.",
+      "Ser y no saber nada, y ser sin rumbo cierto,",
+      "y el temor de haber sido y un futuro terror...",
+      "Y el espanto seguro de estar mañana muerto,",
+      "y sufrir por la vida y por la sombra",
+      "y por lo que no conocemos y apenas sospechamos,",
+      "y la carne que tienta con sus frescos racimos,",
+      "y la tumba que aguarda con sus fúnebres ramos,",
+      "¡y no saber adónde vamos, ni de dónde venimos!..."
+    ]
   }
 ]

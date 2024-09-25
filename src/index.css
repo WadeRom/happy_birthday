@@ -140,6 +140,13 @@ svg{
   background-color: var(--color-purple-dark);
 }
 
+/*Personlization*/
+.icon-sunflower{
+  left: -10%;
+  bottom: clamp(-5rem, -15rem, -20rem);
+  width: clamp( 5rem, 35vw, 50rem);
+}
+
 /****Fill colors****/
 .fill-blue        { fill: var(--color-blue); }
 .fill-cian        { fill: var(--color-cian); }
