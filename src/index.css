@@ -1,5 +1,5 @@
 :root {
-  --title-lg: clamp(2rem, 4vw, 5rem);
+  --title-lg: clamp(1.5rem, 4vw, 4rem);
   --title-xl: clamp(4rem, 12vw, 12rem);
   
   --size-full: 100%;
@@ -141,10 +141,25 @@ svg{
 }
 
 /*Personlization*/
-.icon-sunflower{
-  left: -10%;
-  bottom: clamp(-5rem, -15rem, -20rem);
-  width: clamp( 5rem, 35vw, 50rem);
+.sunflower-bg{
+  background-repeat: no-repeat;
+  background-size: clamp(18rem, 60vw, 400px);
+  background-position: clamp(-10rem, 15vw, -5rem) clamp(100%, 70vh, 150%);
+  background-image: url("./assets/icons/sunflower.svg");
+}
+
+.scrollbar-none{
+  scrollbar-width: none;
+}
+.scrollbar-bg::-webkit-scrollbar-track{
+  background-color: transparent;
+}
+.scrollbar-thumb::-webkit-scrollbar-thumb{
+  border-radius: 100vw;
+  background-color: var(--color-purple);
+}
+.scrollbar-thumb::-webkit-scrollbar-thumb:hover{
+  background-color: var(--color-purple-light);
 }
 
 /****Fill colors****/
@@ -374,7 +389,7 @@ svg{
 
 
 /****Padding****/
-.p-sx  { padding: var(--size-xs); }
+.p-xs  { padding: var(--size-xs); }
 .p-sm  { padding: var(--size-sm); }
 .p-md  { padding: var(--size-md); }
 .p-lg  { padding: var(--size-lg); }
@@ -484,6 +499,7 @@ svg{
 .flex { display: flex; }
 .flex-row { flex-direction: row; }
 .flex-col { flex-direction: column; }
+.flex-wrap { flex-wrap: wrap;}
 .flex-row--reverse { flex-direction: row-reverse};
 .flex-col--reverse { flex-direction: column-reverse};
 
@@ -511,6 +527,8 @@ svg{
 .align-center { align-items: center; }
 .align-start  { align-items: flex-start; }
 
+.align-content--center { align-content: center;}
+
 /****Display****/
 .d-block { display: block; }
 .d-inline { display: inline; }
@@ -521,8 +539,9 @@ svg{
 .transition--height{
   transition: height 0.5s ease;
 }
-.transition--width{
-  transition: width 0.2s ease;
+.transition--scale{
+  transform: scale(1.8);
+  transition: transform 0.2s ease;
 }
 /****Animations****/
 .pulse {

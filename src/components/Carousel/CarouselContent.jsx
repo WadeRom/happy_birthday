@@ -1,14 +1,16 @@
 import { formatContent } from "../../utils/carouselUtils";
+import { useResetScroll } from "../../hooks/useResetScroll";
 
-const CarouselContent = ({ content, author, date, animation }) =>{
-  
+const CarouselContent = ({ content, animation }) =>{
+  const scrollRef = useResetScroll();
+
   const formattedContent = formatContent(content);
   return (
-    <div className={`color-white w-max--sm font-poppins h-max--75 h-75 overflow-y--auto font-medium ${animation}`}>
-      <p className="white-space--pre  text-center flex flex-col gap-xs ">
+    <p className={`h-max--90 w-full color-white w-full overflow-y--auto font-poppins font-normal scrollbar-none ${animation}`} ref={scrollRef}>
+      <em className="white-space--pre  text-center flex flex-col gap-xs ">
         {formattedContent}
-      </p>
-    </div>
+      </em>
+    </p>
   )
 };
 
