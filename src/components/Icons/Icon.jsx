@@ -1,6 +1,5 @@
 import "./main.css";
 import HeartSVG from "../../assets/icons/heart.svg?react";
-import TornadoSVG from "../../assets/icons/tornado.svg?react";
 import SunflowerSVG from "../../assets/icons/sunflower.svg?react";
 import ChevronLeft from "../../assets/icons/ChevronLeft.svg?react";
 import ChevronRight from "../../assets/icons/ChevronRight.svg?react";
@@ -9,10 +8,6 @@ const icons = {
   heart: {
     alt: "Heart icon",
     Icon: HeartSVG,
-  },
-  tornado: {
-    alt: "Tornado icon",
-    Icon: TornadoSVG,
   },
   sunflower: {
     alt: "Sunflower icon",
