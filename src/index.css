@@ -1,5 +1,5 @@
 :root {
-  --title-lg: clamp(1.5rem, 4vw, 4rem);
+  --title-lg: clamp(1.8rem, 4vw, 4rem);
   --title-xl: clamp(4rem, 12vw, 12rem);
   
   --size-full: 100%;
@@ -150,16 +150,10 @@ svg{
 
 .scrollbar-none{
   scrollbar-width: none;
+  scroll-snap-type: y mandatory;
 }
-.scrollbar-bg::-webkit-scrollbar-track{
-  background-color: transparent;
-}
-.scrollbar-thumb::-webkit-scrollbar-thumb{
-  border-radius: 100vw;
-  background-color: var(--color-purple);
-}
-.scrollbar-thumb::-webkit-scrollbar-thumb:hover{
-  background-color: var(--color-purple-light);
+.scrollbar-snap-aling--y{
+  scroll-snap-align: start;
 }
 
 /****Fill colors****/
