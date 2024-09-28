@@ -1,4 +1,10 @@
 :root {
+  --sunflower: url("./assets/icons/sunflower.svg");
+  --tornado-t--left: url("./assets/icons/tornado_topleft.svg");
+  --tornado-t--right: url("./assets/icons/tornador_topright.svg");
+  --tornado-b--left: url("./assets/icons/tornado_bottomleft.svg");
+  --tornado-b--right: url("./assets/icons/tornado_bottomright.svg");
+
   --title-lg: clamp(1.8rem, 4vw, 4rem);
   --title-xl: clamp(4rem, 12vw, 12rem);
   
@@ -131,6 +137,10 @@ svg{
   height: 100%;
 }
 
+article {
+  z-index: 2;
+}
+
 #root {
   width: 100vw;
   height: 100vh;
@@ -141,20 +151,50 @@ svg{
 }
 
 /*Personlization*/
+
+.scrollbar-snap-aling--y{ scroll-snap-align: start;} 
+.scrollbar-none{ scrollbar-width: none; scroll-snap-type: y mandatory;}
+
 .sunflower-bg{
   background-repeat: no-repeat;
   background-size: clamp(18rem, 60vw, 400px);
+  background-image: var(--sunflower);  
   background-position: clamp(-10rem, 15vw, -5rem) clamp(100%, 70vh, 150%);
-  background-image: url("./assets/icons/sunflower.svg");
 }
 
-.scrollbar-none{
-  scrollbar-width: none;
-  scroll-snap-type: y mandatory;
+.tornado::after, .tornado::before{
+  z-index: 1;
+  background-repeat: no-repeat;
+  background-size: clamp(10rem, 60vw, 600px);
+    animation: fadeIn ease both;
+    animation-timeline: view(block);
+    animation-range: entry 0% cover 10%;
 }
-.scrollbar-snap-aling--y{
-  scroll-snap-align: start;
+
+.tornado::after{
+  top: 0;
+  left: 0;
+  z-index: 0;
+  content: "";
+  width: 100%;
+  height: 15rem;
+  position: absolute; 
+  background-repeat: no-repeat;
+  background-position: left top;
+  background-image: var(--tornado-t--left);
+ 
 }
+.tornado::before{
+  right: 0;
+  bottom: 0;
+  content: "";
+  width: 100%;
+  height: 10rem;
+  position: absolute;
+  background-position: right bottom;
+  background-image: var(--tornado-b--right);
+}
+
 
 /****Fill colors****/
 .fill-blue        { fill: var(--color-blue); }
@@ -219,6 +259,7 @@ svg{
 .font-xl { font-size: var(--size-xl); }
 .font-xxl { font-size: var(--size-xxl); }
 
+.font-title--md { font-size: clamp(var(--size-sm), 10vw, 6rem);}
 .font-title--lg { font-size: var(--title-lg)}
 .font-title--xl { font-size: var(--title-xl)}
 
@@ -477,12 +518,18 @@ svg{
 .overflow-y--hidden { overflow-y: hidden; }
 .overflow-y--scroll { overflow-y: scroll; }
 
-/****Positions****/
+/****Display****/
 .fixed    { position: fixed; }
 .static   { position: static; }
 .sticky   { position: sticky; }
 .relative { position: relative; }
 .absolute { position: absolute; }
+
+/****Positions****/
+.top-0 { top: 0; }
+.left-0 { left: 0; }
+.right-0 { right: 0; }
+.bottom-0 { bottom: 8rem; }
 
 /****Gap****/
 .gap-xxs { gap: var(--size-xxs); }
@@ -528,6 +575,9 @@ svg{
 .d-inline { display: inline; }
 .d-inline--flex { display: inline-flex; }
 .d-inline--block { display: inline-block; }
+
+/*Object*/
+.object-fit--cover{ object-fit: cover;}
 
 /*Transitions*/
 .transition--height{
@@ -591,6 +641,18 @@ svg{
 }
 
 /****Keyframes****/  
+@keyframes show {
+  from {
+    opacity: 0;
+    scale: 0;
+  }
+
+  to {
+    opacity: 1;
+    scale: 1;
+  }
+}
+
 @keyframes fadeInUp {
   0% {
     opacity: 0;
