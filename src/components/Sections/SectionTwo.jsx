@@ -22,7 +22,7 @@ export const SectionTwo = () => {
   const data = poems[carouselState.index];
 
   return (
-    <section id="2" className="w-full h-full sunflower-bg ">
+    <section id="2" className="w-full h-full">
       <div className="w-full w-min--xs w-max--md h-full m-auto pt-md">
         <CarouselTitle title={data.title} />
         <div className="w-min--xs  w-full flex justify-center h-80 h-max--70 mt-md">
