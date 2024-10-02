@@ -4,8 +4,9 @@ import CarouselContainer from "../Carousel/CarouselContainer";
 import CarouselNavigationButton from "../Carousel/CarouselButton";
 import useCarouselAnimation from "../../hooks/useCarouselAnimation";
 import { getNextIndex, getPrevIndex } from "../../utils/carouselUtils";
+import {WrappedSection, SectionBase} from "../Section/Section";
 
-export const SectionTwo = () => {
+export const Section = ({innerRef, ...props}) => {
   const { carouselState, setCarouselAnimation } = useCarouselAnimation();
 
   const nextPoem = () =>
@@ -22,7 +23,7 @@ export const SectionTwo = () => {
   const data = poems[carouselState.index];
 
   return (
-    <section id="2" className="w-full h-full">
+    <SectionBase ref={innerRef} {...props} id="2" className="w-full h-full mesh-bg--left sticky top-0 sunflower-bg">
       <div className="w-full w-min--xs w-max--md h-full m-auto pt-md">
         <CarouselTitle title={data.title} />
         <div className="w-min--xs  w-full flex justify-center h-80 h-max--70 mt-md">
@@ -44,6 +45,8 @@ export const SectionTwo = () => {
           />
         </div>
       </div>
-    </section>
+    </SectionBase>
   );
 };
+
+export const SectionTwo = WrappedSection(Section);

@@ -1,4 +1,5 @@
 import { Icon } from "../icons/Icon";
+import { WrappedSection, SectionBase } from "../Section/Section";
 import { Title } from "../typography/Title";
 
 const RowIcon = ({className}) => {
@@ -34,11 +35,11 @@ const Titles = () => {
   );
 };
 
-export const SectionOne = () => {
+export const SectionOne = WrappedSection(({ innerRef, ...props }) => {
   return (
-    <section className=" w-min--xs w-full h-full p-sm flex justify-end flex-col">
+    <SectionBase ref={innerRef} {...props} className="mesh-bg w-min--xs w-full h-full p-sm flex justify-end flex-col sticky top-0">
       <Titles />
-      <Icons/>
-    </section>
+      <Icons />
+    </SectionBase>
   );
-};
+});

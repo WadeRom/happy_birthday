@@ -1,0 +1,52 @@
+{
+  "starry": {
+    "title": "La noche estrellada",
+    "year": 1889,
+    "description": "Una de las obras más icónicas de Van Gogh, esta pintura muestra un cielo nocturno turbulento sobre el pueblo de Saint-Rémy-de-Provence."
+  },
+  "bedroom": {
+    "title": "El dormitorio en Arlés",
+    "year": 1888,
+    "description": "Esta pintura muestra el dormitorio de Van Gogh en su casa en Arlés."
+  },
+  "drgachet": {
+    "title": "Retrato del doctor Gachet",
+    "year": 1890,
+    "description": "Este retrato muestra al doctor Paul Gachet, quien cuidó de Van Gogh en sus últimos meses."
+  },
+  "oldman": {
+    "title": "Anciano en pena",
+    "year": 1890,
+    "description": "Esta obra muestra a un anciano sentado con la cabeza entre las manos."
+  },
+  "sunflower": {
+    "title": "Los girasoles",
+    "year": 1888,
+    "description": "Parte de una serie de pinturas de girasoles."
+  },
+  "thediningrooms": {
+    "title": "Los comedores de patatas",
+    "year": 1885,
+    "description": "Esta obra muestra a campesinos humildes compartiendo una comida sencilla."
+  },
+  "nightCoffee": {
+    "title": "El café de noche",
+    "year": 1888,
+    "description": "Pintado en Arlés, esta obra captura la atmósfera de un café nocturno."
+  },
+  "roundprisoners": {
+    "title": "La ronda de los presos",
+    "year": 1890,
+    "description": "Esta pintura muestra a prisioneros caminando en círculo."
+  },
+  "self": {
+    "title": "Autorretrato con la oreja vendada",
+    "year": 1889,
+    "description": "Este autorretrato fue pintado después de que Van Gogh se cortara parte de su oreja."
+  },
+  "cafeterrace": {
+    "title": "Terraza de café por la noche",
+    "year": 1888,
+    "description": "Esta pintura muestra una terraza de café en Arlés bajo un cielo estrellado."
+  }
+}
