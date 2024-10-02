@@ -1,0 +1,72 @@
+.flex-container {
+  padding: 1rem;
+  margin: 0 auto;
+  height: auto;
+  max-width: 1200px;
+  min-width: var(--size-screen--xs);
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--size-sm);
+  justify-content: center;
+}
+
+.flex-item {
+  width: 100%;
+  height: auto;
+  max-height: 650px;
+  min-width: var(--size-screen--xs);
+  max-width: 450px;
+}
+
+.flex-item > img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  object-fit: fill;
+}
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  cursor: pointer;
+  opacity: 0; /* Inicialmente oculto */
+  pointer-events: none; /* No permite interacciones cuando está oculto */
+  transition: opacity 0.3s ease; /* Transición suave para la opacidad */
+  backdrop-filter: blur(100px); /* Efecto de blur */
+}
+
+.modal-overlay img {
+  border-radius: var(--size-xs);
+}
+.modal-overlay.open {
+  opacity: 1; /* Se muestra cuando está abierto */
+  pointer-events: auto; /* Permitir interacciones cuando está visible */
+}
+
+.modal-overlay.closing {
+  opacity: 0; /* Desvaneciendo */
+  transform: translateY(20px); /* Desplazando hacia abajo */
+}
+
+.modal-content {
+  width: auto;
+  height: auto;
+  position: relative;
+  padding: var(--size-sm);
+  border-radius: 8px;
+  transform: translateY(-50px); /* Inicia desfasado */
+  transition: transform 0.3s ease; /* Transición suave para la entrada */
+  background: transparent;
+}
+
+.modal-overlay.open .modal-content {
+  transform: translateY(0); /* Regresa a la posición original */
+}
