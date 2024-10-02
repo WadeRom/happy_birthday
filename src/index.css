@@ -592,8 +592,8 @@ html,body{
 .flex-row { flex-direction: row; }
 .flex-col { flex-direction: column; }
 .flex-wrap { flex-wrap: wrap;}
-.flex-row--reverse { flex-direction: row-reverse};
-.flex-col--reverse { flex-direction: column-reverse};
+.flex-row--reverse { flex-direction: row-reverse}
+.flex-col--reverse { flex-direction: column-reverse}
 
 /****Grown****/
 .grown-1{ flex-grow: 1;}
